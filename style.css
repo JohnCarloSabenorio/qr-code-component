@@ -1,0 +1,41 @@
+
+html, body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: Outfit;
+    background: hsl(212, 45%, 89%);
+}
+.div-container{
+    background: white;
+    width: 300px;
+    max-width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1.2em;
+    border-radius: 1em;
+    text-align: center;
+}
+
+.qr-container{
+    margin: auto;
+    width: 19em;
+    background: url("images/qrcode.png");
+    background-size: cover;
+    height: 19em;
+    border-radius: 1em;
+}
+
+.heading{
+    color:  hsl(218, 44%, 22%);
+    font-weight: 700;
+}
+.instruction{
+    font-size: 1.1em;
+    margin-bottom: 2em;
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+
+}
